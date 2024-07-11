@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>hDC Host</title>
+    <link rel="icon" href="img/hdchostlogo.png" type="image/png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -116,7 +117,46 @@
                     </div>
                 </div>
             </section>
+            <section class="searchdomain-container">
+                <h2>Qual domínio você quer para o seu site?</h2>
+                <p>Verifique se o domínio está disponível</p>
+                <form>
+                    <input 
+                    type="text" 
+                    name="domain" 
+                    id="domain" 
+                    placeholder="Digite o domínio desejado"
+                    />
+                    <input type="submit" value="Procurar domínio" />
+                </form>
+            </section>
+            <section class="contact-container">
+                <h2>Mande uma mensagem</h2>
+                <p>Envie a sua mensagem, em até 4 horas um especialista entrará em contato.</p>
+                <form>
+                    <input 
+                    type="text" 
+                    name="name" 
+                    id="name" 
+                    placeholder="Seu nome"
+                    />
+                    <input 
+                    type="email" 
+                    name="email" 
+                    id="email" 
+                    placeholder="Seu e-mail"
+                    />
+                    <textarea 
+                    name="message" 
+                    id="message" 
+                    placeholder="Descreva o que você precisa"></textarea>
+                <input type="submit" value="Enviar" />
+                </form>
+            </section>
         </main>
+        <footer>
+            <p>hDC Host @ 2024</p>
+        </footer>
     </div>
     
 </body>
